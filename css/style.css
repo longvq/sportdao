@@ -1,0 +1,725 @@
+/* intro div */
+
+.intro_div {
+    height: 100vh;
+    position: relative;
+    /* background-color: #000d24; */
+}
+
+
+/* .background_video {
+    position: absolute;
+    width: 100%;
+} */
+
+.div_video {
+    position: absolute;
+}
+
+.box {
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    text-align: center;
+}
+
+.card_video {
+    margin: auto;
+    width: 45vw;
+    box-shadow: 0px -1px 22px 11px rgba(36, 156, 146, 0.93);
+    -webkit-box-shadow: 0px -1px 22px 11px rgba(36, 156, 146, 0.93);
+    -moz-box-shadow: 0px -1px 22px 11px rgba(36, 156, 146, 0.93);
+}
+
+.card_box {
+    margin: auto;
+    width: 80%;
+    /* height: auto; */
+    border: 1px solid #fff;
+    box-shadow: 0px -2px 11px 5px rgba(36, 156, 146, 1) inset;
+    -webkit-box-shadow: 0px -2px 11px 5px rgba(36, 156, 146, 1) inset;
+    -moz-box-shadow: 0px -2px 11px 5px rgba(36, 156, 146, 1) inset;
+    background-color: #000d2477;
+    backdrop-filter: blur(7px)
+}
+
+.text_1 {
+    font-size: 3vw;
+    margin-right: 10%;
+    -webkit-text-stroke: 1px white;
+    color: #000d249e;
+    font-weight: bold;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+}
+
+.text_2 {
+    font-size: 2.4vw;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    font-family: 'Copperplate', sans-serif;
+    font-weight: bold;
+}
+
+.text_3 {
+    font-size: 1.6vw;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    font-family: 'Copperplate', sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    .intro_div {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro_div {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .intro_div {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .intro_div {
+        height: 30vh;
+    }
+    .background_video {
+        position: absolute;
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        margin-bottom: 100px;
+    }
+}
+
+
+/* intro div */
+
+
+/* Value  */
+
+.componentValue {
+    position: relative;
+    z-index: 90;
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000d24;
+    background-image: url(../image/Web_1920_4.png); */
+}
+
+.wrapper_value {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 120px;
+}
+
+.divRowValue {
+    flex-direction: row;
+    display: flex;
+    padding-top: 20px;
+}
+
+.divRowValue_900 {
+    flex-direction: row;
+    display: none;
+}
+
+.cardImgValue {
+    width: 100%;
+}
+
+.mt20Value {
+    margin-top: 20px;
+}
+
+.cardValue1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding-left: 50px;
+}
+
+.cardValue1_900 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.divValueTextCard {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.textValue1 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1.6vw;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+}
+
+.textValueSmall2End {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    align-self: flex-end;
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.textValueSmall2 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.textValueSmall3 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.textValueSmall4 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    display: flex;
+    margin-left: 10px;
+}
+
+.textValueSmall1MT20 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1vw;
+    color: white;
+    margin-top: 40px;
+}
+
+.textValueSmall1 {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.divValueCol {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.borderCornerValue {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #0197af 1px, transparent 4px) 0 100%, linear-gradient(to left, #0197af 1px, transparent 4px) 100% 0, linear-gradient(to bottom, #0197af 1px, transparent 4px) 100% 0, linear-gradient(to top, #0197af 1px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divRowValueCenter {
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.borderCardValue {
+    margin: auto;
+    width: 40%;
+    box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    background: linear-gradient(to bottom right, #000d24, #032e44);
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 65%;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    position: relative
+}
+
+.divRowValueCenterbt20 {
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divBorderImgValue {
+    width: 20vw;
+    margin-left: -10vw;
+}
+
+.divRowValue2 {
+    flex-direction: row;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.divRowValue3 {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.divRowValue4 {
+    border-width: 0.5px;
+    border-color: white;
+    border-style: solid;
+    width: 80%;
+    height: 120px;
+    box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(1, 151, 175, 0.82);
+    background: linear-gradient(#000d24, #033954);
+    justify-content: center;
+    justify-items: center;
+}
+
+.divRowValue5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.divColValue {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.divColValueImageLogoTeam {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    justify-content: center;
+}
+
+.divRowValue3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.textValue2 {
+    color: #0197af;
+    font-size: 16px;
+    font-family: 'Copperplate', sans-serif;
+}
+
+.divColValue2 {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogoTeamValue {
+    width: 100%;
+    height: 100%;
+}
+
+.value_span {
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 1400px) {
+    .divRowValue {
+        display: flex;
+    }
+    .componentValue {
+        height: 80vh;
+    }
+    .divRowValue_900 {
+        display: none;
+    }
+    .divRowValue4 {
+        border-width: 0.5px;
+        border-color: white;
+        border-style: solid;
+        width: 90%;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .divRowValue {
+        display: flex;
+    }
+    .componentValue {
+        height: 80vh;
+    }
+    .divRowValue_900 {
+        display: none;
+    }
+    .divRowValue4 {
+        border-width: 0.5px;
+        border-color: white;
+        border-style: solid;
+        width: 95%;
+        height: 120px;
+    }
+    .value_span {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .componentValue {
+        height: 70vh;
+    }
+    .divRowValue {
+        display: flex;
+    }
+    .borderCardValue {
+        margin-bottom: 10px;
+    }
+    .divRowValue_900 {
+        display: none;
+    }
+    .divRowValue4 {
+        border-width: 0.5px;
+        border-color: white;
+        border-style: solid;
+        width: 95%;
+        height: 120px;
+    }
+    .value_span {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .componentValue {
+        height: 1000px;
+    }
+    .divRowValue {
+        display: none;
+    }
+    .divRowValue_900 {
+        display: flex;
+    }
+    .cardImgValue {
+        width: 90%;
+    }
+    .textValueSmall1MT20 {
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+    .divValueCol {
+        padding: 0px;
+    }
+    .textValueSmall2End {
+        font-size: 2vw;
+        margin-bottom: 2px;
+    }
+    .textValueSmall2 {
+        font-size: 2vw;
+    }
+    .textValueSmall3 {
+        font-size: 2vw;
+    }
+    .textValueSmall4 {
+        font-size: 2vw;
+    }
+    .textValue2 {
+        font-size: 12px;
+    }
+    .textValue1 {
+        font-size: 20px;
+    }
+    .wrapper_value {
+        display: grid;
+        grid-template-columns: 120px auto auto auto auto;
+        grid-gap: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .divRowValue4 {
+        border-width: 0.5px;
+        border-color: white;
+        border-style: solid;
+        width: 95%;
+        height: 120px;
+    }
+    .value_button {
+        display: none;
+    }
+    .value_span {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .value_span {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .componentValue {
+        height: 800px;
+    }
+    .textValue2 {
+        font-size: 12px;
+    }
+    .textValue1 {
+        font-size: 20px;
+    }
+    .wrapper_value {
+        display: grid;
+        grid-template-columns: 100px auto auto auto auto;
+        grid-gap: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .divRowValue4 {
+        width: 90%;
+        height: 90px;
+    }
+    .value_span {
+        font-size: 2vw;
+    }
+    .btnImagValue {
+        width: 80%;
+        height: 120px;
+    }
+}
+
+.btnImagValue {}
+
+@media only screen and (max-width: 500px) {
+    .componentValue {
+        height: 75vh;
+    }
+    .divRowValue_900 {
+        display: flex;
+    }
+    .divRowValue2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .textValueSmall2End {
+        margin-bottom: 0px;
+    }
+    .textValue2 {
+        font-size: 8px;
+    }
+    .textValue1 {
+        font-size: 10px;
+    }
+    .divRowValue4 {
+        width: 100%;
+        height: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .value_span {
+        font-size: 2.2vw;
+    }
+    .wrapper_value {
+        display: grid;
+        grid-template-columns: 95px auto auto auto auto;
+        grid-gap: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 100px;
+    }
+    .btnImagValue {
+        width: 100%;
+        height: 105px;
+    }
+}
+
+
+/* End Value */
+
+
+/* Invertment */
+
+.componentInvest {
+    /* position: relative; */
+    z-index: 90;
+    height: 100vh;
+    width: 100%;
+    background-size: 120% 100%;
+    animation: mymove 9s infinite linear;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes mymove {
+    0% {
+        background-image: url(../image/Group_288.png);
+    }
+    20% {
+        background-image: url(../image/Group_295.png);
+    }
+    40% {
+        background-image: url(../image/Group_288.png);
+    }
+    60% {
+        background-image: url(../image/Group_295.png);
+    }
+    80% {
+        background-image: url(../image/Group_288.png);
+    }
+    100% {
+        background-image: url(../image/Group_295.png);
+    }
+}
+
+.divInvest {
+    padding-top: 18vh;
+    margin-left: 160px;
+    position: absolute;
+}
+
+.textInvest1 {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+}
+
+.mt20Invest {
+    margin-top: 20px;
+}
+
+.mtb40Invest {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textInvestSmall {
+    font-family: 'Copperplate', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px -2px 6px rgba(36, 156, 146, 1);
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.card_img_value_investment {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: -160px;
+}
+
+.card_img_value_investment_1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .card_img_value_investment_1 {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        right: 0px;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .divInvest {
+        padding-top: 10vh;
+        margin-left: 7vw;
+    }
+    .textInvest1 {
+        font-size: 28px;
+    }
+    .textInvestSmall {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .divInvest {
+        padding-top: 18vh;
+        margin-left: 90px;
+        position: absolute;
+    }
+    .card_img_value_investment {
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        left: -160px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .componentInvest {
+        height: 70vh;
+        width: 100%;
+    }
+    .textInvest1 {
+        font-size: 4vw;
+    }
+    .textInvestSmall {
+        font-size: 3vw;
+        margin-bottom: 10px;
+    }
+    .divInvest {
+        padding-top: 10vh;
+        margin-left: 22px;
+        position: absolute;
+    }
+    .card_img_value_investment {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        left: -220px;
+    }
+    .mt20Invest {
+        margin-top: 10px;
+    }
+    .mtb40Invest {
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+}
+
+
+/* End Invertment */
