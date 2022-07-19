@@ -2,6 +2,16 @@ header {
     z-index: 100;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.swiper-slide {}
+
 
 /* intro div */
 
