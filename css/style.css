@@ -10,7 +10,9 @@ header {
     overflow: hidden;
 }
 
-.swiper-slide {}
+.swiper-slide {
+    background: #080321;
+}
 
 
 /* intro div */
@@ -79,25 +81,34 @@ header {
 
 @media only screen and (max-width: 1400px) {
     .intro_div {
-        height: 80vh;
+        height: auto;
+    }
+    .intro_item {
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .intro_div {
-        height: 70vh;
+        height: auto;
+    }
+    .intro_item {
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     .intro_div {
-        height: 50vh;
+        height: auto;
+    }
+    .intro_item {
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .intro_div {
-        height: 30vh;
+        height: auto;
     }
     .background_video {
         position: absolute;
@@ -106,6 +117,25 @@ header {
         object-fit: cover;
         margin-bottom: 100px;
     }
+    .intro_item {
+        width: 100%;
+    }
+    .card_box {
+        width: 100%;
+    }
+    .text_1 {
+        font-size: 6vw;
+    }
+    .text_2 {
+        font-size: 3vw;
+    }
+    .text_3 {
+        font-size: 2vw;
+    }
+}
+
+.m-5 {
+    margin: 1.25rem;
 }
 
 
@@ -117,9 +147,10 @@ header {
 .componentValue {
     position: relative;
     z-index: 90;
-    height: 100vh;
+    height: auto;
     width: 100%;
     z-index: 0;
+    margin-bottom: 120px;
 }
 
 .wrapper_value {
@@ -178,7 +209,7 @@ header {
 
 .textValue1 {
     font-family: 'Copperplate', sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     color: white;
     text-shadow: 0px -2px 6px rgba(36, 90, 156, 1);
 }
@@ -270,7 +301,7 @@ header {
     box-shadow: 0px 0px 25px 1px rgba(36, 90, 156, 0.82);
     -webkit-box-shadow: 0px 0px 25px 1px rgba(36, 90, 156, 0.82);
     -moz-box-shadow: 0px 0px 25px 1px rgba(36, 90, 156, 0.82);
-    background: linear-gradient(to bottom right, #000d24, #032e44);
+    background: linear-gradient(to bottom right, #000d24, rgb(3, 10, 24));
     border-color: white;
     border-width: 0.5px;
     border-style: solid;
@@ -379,7 +410,7 @@ header {
         display: flex;
     }
     .componentValue {
-        height: 80vh;
+        height: auto;
     }
     .divRowValue_900 {
         display: none;
@@ -398,7 +429,7 @@ header {
         display: flex;
     }
     .componentValue {
-        height: 80vh;
+        height: auto;
     }
     .divRowValue_900 {
         display: none;
@@ -442,7 +473,7 @@ header {
 
 @media only screen and (max-width: 900px) {
     .componentValue {
-        height: 1000px;
+        height: auto;
     }
     .divRowValue {
         display: none;
@@ -509,7 +540,7 @@ header {
 
 @media only screen and (max-width: 600px) {
     .componentValue {
-        height: 800px;
+        height: auto;
     }
     .textValue2 {
         font-size: 12px;
@@ -526,18 +557,19 @@ header {
     }
     .divRowValue4 {
         width: 90%;
-        height: 90px;
     }
     .value_span {
         font-size: 2vw;
     }
     .btnImagValue {
-        width: 80%;
+        width: 100%;
         height: 120px;
     }
 }
 
-.btnImagValue {}
+.btnImagValue {
+    min-width: 100px;
+}
 
 @media only screen and (max-width: 500px) {
     .componentValue {
@@ -561,7 +593,6 @@ header {
     }
     .divRowValue4 {
         width: 100%;
-        height: 90px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -578,7 +609,7 @@ header {
     }
     .btnImagValue {
         width: 100%;
-        height: 105px;
+        height: 100%;
     }
 }
 
@@ -591,11 +622,15 @@ header {
 .componentInvest {
     /* position: relative; */
     z-index: 90;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-size: 120% 100%;
     animation: mymove 9s infinite linear;
-    /* animation-iteration-count: infinite; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    animation-iteration-count: infinite;
 }
 
 @keyframes mymove {
@@ -620,9 +655,7 @@ header {
 }
 
 .divInvest {
-    padding-top: 18vh;
-    margin-left: 160px;
-    position: absolute;
+    margin-left: 0;
 }
 
 .textInvest1 {
@@ -653,44 +686,33 @@ header {
 .card_img_value_investment {
     width: 700px;
     height: 700px;
-    position: absolute;
-    left: -160px;
+    left: 0px;
 }
 
 .card_img_value_investment_1 {
-    width: 500px;
-    height: 500px;
-    position: absolute;
+    width: 600px;
+    height: 600px;
     right: 0px;
-    margin-top: 200px;
+}
+
+.card_img_value_investment_1 img {
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1400px) {
     .card_img_value_investment_1 {
-        width: 0px;
-        height: 0px;
-        position: absolute;
         right: 0px;
-        margin-top: 200px;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .divInvest {
-        padding-top: 10vh;
-        margin-left: 7vw;
-    }
     .textInvest1 {
         font-size: 28px;
     }
     .textInvestSmall {
         font-size: 16px;
         margin-bottom: 10px;
-    }
-    .divInvest {
-        padding-top: 18vh;
-        margin-left: 90px;
-        position: absolute;
     }
     .card_img_value_investment {
         width: 600px;
@@ -711,11 +733,6 @@ header {
     .textInvestSmall {
         font-size: 3vw;
         margin-bottom: 10px;
-    }
-    .divInvest {
-        padding-top: 10vh;
-        margin-left: 22px;
-        position: absolute;
     }
     .card_img_value_investment {
         width: 500px;
@@ -784,7 +801,7 @@ header {
     width: 180px;
     max-height: 60px;
     min-width: 100%;
-    background: linear-gradient(to right, rgb(36, 90, 156) 1px, transparent 2px) 0 0, linear-gradient(to right, rgb(36, 90, 156) 1px, transparent 2px) 0 100%, linear-gradient(to left, rgb(36, 90, 156) 1px, transparent 2px) 100% 0, linear-gradient(to left, rgb(36, 90, 156) 1px, transparent 2px) 100% 100%, linear-gradient(to bottom, rgb(36, 90, 156) 1px, transparent 2px) 0 0, linear-gradient(to bottom, rgb(36, 90, 156) 1px, transparent 2px) 100% 0, linear-gradient(to top, rgb(36, 90, 156) 1px, transparent 2px) 0 100%, linear-gradient(to top, rgb(36, 90, 156) 1px, transparent 2px) 100% 100%;
+    background: linear-gradient(to bottom right, #010610, #161160);
     background-repeat: no-repeat;
     background-size: 10px 10px;
     display: flex;
@@ -807,7 +824,7 @@ header {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(36, 90, 156, 0.82);
     -moz-box-shadow: 0px 0px 10px 1px rgba(36, 90, 156, 0.82);
     max-height: 200px;
-    background: linear-gradient(to bottom right, #000d24, #032e44);
+    background: linear-gradient(to bottom right, #010610, #161160);
     border-color: white;
     border-width: 0.5px;
     border-style: solid;
@@ -1053,17 +1070,15 @@ header {
 }
 
 .imgBorder1Utility {
-    margin-left: -200px;
     margin-top: 110px;
-    width: 30vw;
-    height: 35%;
+    width: 30%;
+    height: 40px;
 }
 
 .imgBorder2Utility {
-    width: 30vw;
-    margin-right: -500px;
+    width: 30%;
     margin-top: 110px;
-    height: 35%;
+    height: 40px;
 }
 
 .imgBorderUtilityMobile {
@@ -1078,9 +1093,7 @@ header {
     margin-top: 100px;
     padding: 30px;
     height: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 22vw;
+    width: 40%;
     background: linear-gradient(to right, rgb(36, 90, 156) 4px, transparent 4px) 0 0, linear-gradient(to right, rgb(36, 90, 156) 4px, transparent 4px) 0 100%, linear-gradient(to left, rgb(36, 90, 156) 4px, transparent 4px) 100% 0, linear-gradient(to left, rgb(36, 90, 156) 4px, transparent 4px) 100% 100%, linear-gradient(to bottom, rgb(36, 90, 156) 4px, transparent 4px) 0 0, linear-gradient(to bottom, rgb(36, 90, 156) 4px, transparent 4px) 100% 0, linear-gradient(to top, rgb(36, 90, 156) 4px, transparent 4px) 0 100%, linear-gradient(to top, rgb(36, 90, 156) 4px, transparent 4px) 100% 100%;
     background-repeat: no-repeat;
     background-size: 40px 25px;
@@ -1088,7 +1101,7 @@ header {
 
 .textUtility1 {
     font-family: 'Copperplate', sans-serif;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: white;
     text-shadow: 0px -2px 6px rgba(36, 90, 156, 1);
     display: flex;
@@ -1119,6 +1132,7 @@ header {
 
 .w12vwUtility {
     width: 12vw;
+    height: 200px;
 }
 
 .w15vwUtility {
@@ -1337,6 +1351,7 @@ header {
     margin-top: 50px;
     color: white;
     text-shadow: 0px -2px 6px rgba(36, 90, 156, 1);
+    margin-bottom: 10px;
 }
 
 .wrapper {
@@ -1359,6 +1374,7 @@ header {
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
+    background: rgb(19 27 77);
 }
 
 @media only screen and (max-width: 900px) {
