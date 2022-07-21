@@ -1,5 +1,5 @@
 header {
-    z-index: 100000000;
+    z-index: 100000000 !important;
 }
 
 .swiper-container {
