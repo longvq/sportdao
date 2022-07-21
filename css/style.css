@@ -31,6 +31,23 @@ header {
     margin-left: 20px;
 }
 
+.phase-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phase-item1 .phase1-content {
+    border-left: 4px solid #f30040;
+    text-align: left;
+    padding-left: 15px;
+    color: white;
+}
+
+.phase-item1 .phase1-img {
+    width: 28%;
+}
+
 
 /* intro div */
 
@@ -1168,6 +1185,11 @@ header {
     height: 200px;
 }
 
+.w12vwUtility svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .w15vwUtility {
     width: 15vw;
 }
@@ -1289,6 +1311,10 @@ header {
     }
     .w12vwUtility {
         width: 190px;
+    }
+    .w12vwUtility svg {
+        width: 100% !important;
+        height: 100% !important;
     }
 }
 
