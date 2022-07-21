@@ -14,6 +14,14 @@ header {
     background: #080321;
 }
 
+.sub-title-header {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
 
 /* intro div */
 
@@ -98,6 +106,13 @@ header {
 }
 
 @media only screen and (max-width: 900px) {
+    .sub-title-header {
+        color: white;
+        font-size: 10px;
+        text-align: start;
+        margin-top: -8px;
+        margin-left: 0px;
+    }
     .intro_div {
         height: auto;
     }
@@ -107,6 +122,13 @@ header {
 }
 
 @media only screen and (max-width: 500px) {
+    .sub-title-header {
+        color: white;
+        font-size: 10px;
+        text-align: start;
+        margin-top: -8px;
+        margin-left: 0px;
+    }
     .intro_div {
         height: auto;
     }
@@ -119,6 +141,7 @@ header {
     }
     .intro_item {
         width: 100%;
+        margin-top: 20px !important;
     }
     .card_box {
         width: 100%;
@@ -448,7 +471,7 @@ header {
 
 @media only screen and (max-width: 1000px) {
     .componentValue {
-        height: 70vh;
+        /* height: 70vh; */
     }
     .divRowValue {
         display: flex;
@@ -573,7 +596,7 @@ header {
 
 @media only screen and (max-width: 500px) {
     .componentValue {
-        height: 75vh;
+        /* height: 75vh; */
     }
     .divRowValue_900 {
         display: flex;
@@ -605,7 +628,7 @@ header {
         grid-gap: 0px;
         margin-left: 0px;
         margin-right: 0px;
-        height: 100px;
+        height: 120px;
     }
     .btnImagValue {
         width: 100%;
@@ -622,7 +645,6 @@ header {
 .componentInvest {
     /* position: relative; */
     z-index: 90;
-    height: 70vh;
     width: 100%;
     background-size: 120% 100%;
     animation: mymove 9s infinite linear;
@@ -684,14 +706,13 @@ header {
 }
 
 .card_img_value_investment {
-    width: 700px;
-    height: 700px;
+    /* width: 700px;
+    height: 700px; */
     left: 0px;
 }
 
 .card_img_value_investment_1 {
     width: 600px;
-    height: 600px;
     right: 0px;
 }
 
@@ -715,16 +736,15 @@ header {
         margin-bottom: 10px;
     }
     .card_img_value_investment {
-        width: 600px;
+        /* width: 600px;
         height: 600px;
         position: absolute;
-        left: -160px;
+        left: -160px; */
     }
 }
 
 @media only screen and (max-width: 500px) {
     .componentInvest {
-        height: 70vh;
         width: 100%;
     }
     .textInvest1 {
@@ -735,10 +755,10 @@ header {
         margin-bottom: 10px;
     }
     .card_img_value_investment {
-        width: 500px;
+        /* width: 500px;
         height: 500px;
         position: absolute;
-        left: -220px;
+        left: -220px; */
     }
     .mt20Invest {
         margin-top: 10px;
@@ -1131,7 +1151,7 @@ header {
 }
 
 .w12vwUtility {
-    width: 12vw;
+    width: 190px;
     height: 200px;
 }
 
@@ -1187,9 +1207,6 @@ header {
     .imgTokenUtility {
         width: 50vw;
         margin-top: -10%;
-    }
-    .imgBorder1Utility {
-        margin-left: -120px;
     }
     .ml-100Utility {
         margin-left: 0px;
@@ -1258,7 +1275,7 @@ header {
         margin-left: 150px;
     }
     .w12vwUtility {
-        width: 15vw;
+        width: 190px;
     }
 }
 
@@ -1291,9 +1308,6 @@ header {
     .imgBorder1Utility {
         height: 27%;
     }
-    .imgBorder1Utility {
-        margin-left: -100px;
-    }
     .imgBorder2Utility {
         height: 27%;
     }
@@ -1301,13 +1315,13 @@ header {
 
 @media only screen and (max-width: 500px) {
     .divRowUtility {
-        display: none;
+        display: flex;
     }
     .hideUtilityMobile {
         display: block;
     }
     .divCornerUtility {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .divCornerUtility {
         height: 10px;
@@ -1350,7 +1364,7 @@ header {
     margin-left: 60px;
     margin-top: 50px;
     color: white;
-    text-shadow: 0px -2px 6px rgba(36, 90, 156, 1);
+    text-shadow: 0px -2px 6px rgb(0, 26, 59);
     margin-bottom: 10px;
 }
 
@@ -1374,7 +1388,7 @@ header {
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
-    background: rgb(19 27 77);
+    background: rgb(0 9 67);
 }
 
 @media only screen and (max-width: 900px) {
