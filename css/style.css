@@ -6,6 +6,46 @@ header {
     margin-top: -22px !important;
 }
 
+.text_2 span {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0;
+    color: rgb(255, 0, 0);
+}
+
+.text_2 span:before {
+    content: attr(data-text);
+    position: absolute;
+    background: linear-gradient(#f70000, #f89200, #f8f501, #038f00, #0168f8, #a200f7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 90%;
+    line-height: 0.9;
+    clip-path: ellipse(120px 120px at -2.54% -9.25%);
+    animation: swing 5s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes swing {
+    0% {
+        -webkit-clip-path: ellipse(120px 120px at -2.54% -9.25%);
+        clip-path: ellipse(120px 120px at -2.54% -9.25%)
+    }
+    50% {
+        -webkit-clip-path: ellipse(120px 120px at 49.66% 64.36%);
+        clip-path: ellipse(120px 120px at 49.66% 64.36%);
+    }
+    100% {
+        -webkit-clip-path: ellipse(120px 120px at 102.62% -1.61%);
+        clip-path: ellipse(120px 120px at 102.62% -1.61%);
+    }
+}
+
 .bg_cover {
     background-image: url(../img/Ahmad-Bin-Ali-Stadium-1024x768.png);
     background-position: center center;
@@ -1720,3 +1760,26 @@ header {
 
 
 /* End Footer */
+
+svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #ffa5d8;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+        fill: hsl(189, 68%, 75%)
+    }
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: hsla(189, 68%, 75%, 0%)
+    }
+}
