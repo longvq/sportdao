@@ -2,6 +2,10 @@ header {
     z-index: 100000000 !important;
 }
 
+#home {
+    margin-top: -22px !important;
+}
+
 .bg_cover {
     background-image: url(../img/Ahmad-Bin-Ali-Stadium-1024x768.png);
     background-position: center center;
@@ -179,10 +183,10 @@ header {
         font-size: 6vw;
     }
     .text_2 {
-        font-size: 3vw;
+        font-size: 30px;
     }
     .text_3 {
-        font-size: 2vw;
+        font-size: 18px;
     }
 }
 
@@ -1480,7 +1484,6 @@ header {
 
 .faq {
     padding-bottom: 80px;
-    background-color: #f4f7fa
 }
 
 @media(max-width:767px) {
@@ -1575,7 +1578,7 @@ header {
     }
 }
 
-.accordion-item .accordion-button i {
+.accordion-item .accordion-button svg {
     font-size: 15px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -1594,7 +1597,7 @@ header {
     border-radius: 4px 4px 0 0
 }
 
-.accordion-button:not(.collapsed) i::before {
+.accordion-button:not(.collapsed) svg::before {
     content: "\eb2e";
     font-family: lineIcons
 }
@@ -1644,6 +1647,42 @@ header {
 
 .accordion-item:last-child {
     margin: 0
+}
+
+.section-title h3 {
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3e80ff;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+    .faq .section-title {
+        margin-bottom: 30px;
+    }
+    .faq .section-title {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title {
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+    .section-title h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    .section-title {
+        text-align: center;
+        margin-bottom: 80px;
+        position: relative;
+        z-index: 5;
+    }
 }
 
 
