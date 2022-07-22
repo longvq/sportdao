@@ -91,6 +91,9 @@ header {
 .phase-item1 .phase1-img {
     width: 28%;
     min-width: 86px;
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
 }
 
 
@@ -1785,4 +1788,24 @@ svg text {
         stroke-dashoffstet: -20%;
         fill: hsla(189, 68%, 75%, 0%)
     }
+}
+
+.box-icon-style {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    margin-left: 20px;
 }
