@@ -734,26 +734,7 @@ header {
     animation-iteration-count: infinite;
 }
 
-@keyframes mymove {
-    0% {
-        background-image: url(../image/Group_288.png);
-    }
-    20% {
-        background-image: url(../image/Group_295.png);
-    }
-    40% {
-        background-image: url(../image/Group_288.png);
-    }
-    60% {
-        background-image: url(../image/Group_295.png);
-    }
-    80% {
-        background-image: url(../image/Group_288.png);
-    }
-    100% {
-        background-image: url(../image/Group_295.png);
-    }
-}
+@keyframes mymove {}
 
 .divInvest {
     margin-left: 0;
