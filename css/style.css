@@ -228,6 +228,9 @@ header {
     .text_3 {
         font-size: 18px;
     }
+    #home {
+        padding-top: 80px !important;
+    }
 }
 
 .m-5 {
